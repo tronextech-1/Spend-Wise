@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.tronex.spendwise" version="1.0.0"
+        xmlns="http://www.w3.org/ns/widgets"
+        xmlns:cdv="http://cordova.apache.org/ns/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>SPEND WISE</name>
+    <description>
+        A personal expense manager to track your finances with ease.
+    </description>
+    <author email="support@tronex.com" href="https://tronex.com">
+        TRONEX
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="Backup" value="none" />
+    <preference name="SplashScreenDelay" value="2000" />
+    <preference name="FadeSplashScreenDuration" value="500" />
+    <preference name="SplashScreen" value="splash" />
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="AndroidWindowSplashScreenAnimatedIcon" value="resources/android/splash/drawable-port-mdpi-screen.png" />
+    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon src="resources/android/icon/drawable-mdpi-icon.png" />
+        <config-file parent="/manifest" target="AndroidManifest.xml">
+            <uses-permission android:name="android.permission.RECORD_AUDIO" />
+        </config-file>
+        <preference name="StatusBarBackgroundColor" value="#288c2d" />
+        <preference name="AndroidWindowSoftInputMode" value="adjustResize" />
+        <preference name="AndroidXEnabled" value="true" />
+    </platform>
+    <plugin name="cordova-plugin-statusbar" spec="3.0.0" />
+    <plugin name="cordova-plugin-splashscreen" spec="6.0.2" />
+    <plugin name="cordova-plugin-network-information" spec="2.0.2" />
+    <plugin name="cordova-plugin-speechrecognition" spec="1.1.2" />
+    <plugin name="cordova-plugin-file" spec="6.0.2" />
+    <plugin name="cordova-plugin-x-socialsharing" spec="6.0.4" />
+    <plugin name="cordova-plugin-device" spec="2.0.3" />
+</widget>
