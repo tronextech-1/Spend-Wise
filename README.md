@@ -26,7 +26,7 @@ Apache Cordova CLI
  npm install -g cordova
 
 ⚙️ Build Steps
-1. Clone the Repository by running this command in CMD 
+1. Clone the Repository
 =>  git clone https://github.com/tronextech-1/Spend-Wise.git , Navigate to project directory =>  cd SpendWiseApp
 
   
