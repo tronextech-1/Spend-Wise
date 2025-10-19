@@ -40,8 +40,8 @@ Report Generation	html2canvas
 
 📂 Folder Structure
 SpendWiseApp/
-├── config.xml                 # Cordova project configuration
-├── resources/                 # App icons and splash screens
+├── config.xml                 
+├── resources/                 
 │   └── android/
 │       ├── icon/
 │       │   ├── drawable-hdpi-icon.png
@@ -50,8 +50,8 @@ SpendWiseApp/
 │       └── splash/
 │           ├── drawable-port-hdpi-screen.png
 │           └── ... (other densities)
-└── www/                       # Main web content
-    └── index.html             # SPA entry point
+└── www/                     
+    └── index.html           
 
 
 🚀 How to Build the APK (for Android)
