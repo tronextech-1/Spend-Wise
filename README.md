@@ -6,53 +6,6 @@ The app is fully offline-capable, securely storing all data locally on your devi
 Developed by: Ubaid Ur Rehman
  at TRONEX
 
-✨ Features
-
-Transaction Management: Add, edit, and delete income (In) and expense (Out) transactions.
-
-Dashboard: Get a clear summary of your total income, expenses, and current balance.
-
-Offline First: Works entirely offline using IndexedDB — no internet required.
-
-Multi-language Support: Switch between English and Urdu.
-
-Light & Dark Themes: Choose a theme that suits your style.
-
-Voice Input: Add transactions using your voice (powered by cordova-plugin-speechrecognition).
-
-Advanced Filtering & Sorting: Find transactions by type, description, or amount — and sort by date or value.
-
-Image-Based Reports: Generate and share weekly, monthly, or all-time reports as images.
-
-Secure & Private: 100% offline — no data ever leaves your device.
-
-User Profile: Set your personal or organization name for customized reports.
-
-In-App Calculator: Perform quick calculations without switching apps.
-
-🛠️ Tech Stack
-Layer	Technology
-Framework	Apache Cordova
-Frontend	React (via UMD), HTML5, CSS3
-Storage	IndexedDB
-Report Generation	html2canvas
-
-
-📂 Folder Structure
-SpendWiseApp/
-├── config.xml                 
-├── resources/                 
-│   └── android/
-│       ├── icon/
-│       │   ├── drawable-hdpi-icon.png
-│       │   ├── drawable-mdpi-icon.png
-│       │   └── ... (other densities)
-│       └── splash/
-│           ├── drawable-port-hdpi-screen.png
-│           └── ... (other densities)
-└── www/                     
-    └── index.html           
-
 
 🚀 How to Build the APK (for Android)
 🧩 Prerequisites
