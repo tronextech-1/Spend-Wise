@@ -28,6 +28,7 @@ Apache Cordova CLI
 ⚙️ Build Steps
 1. Clone the Repository
 git clone https://github.com/tronextech-1/Spend-Wise.git
+
 cd SpendWiseApp
 
 2. Add the Android Platform
