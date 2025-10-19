@@ -12,13 +12,13 @@ Transaction Management: Add, edit, and delete income (In) and expense (Out) tran
 
 Dashboard: Get a clear summary of your total income, expenses, and current balance.
 
-Offline First: Stores data locally using IndexedDB — no internet required.
+Offline First: Works entirely offline using IndexedDB — no internet required.
 
-Multi-language Support: Switch easily between English and Urdu.
+Multi-language Support: Switch between English and Urdu.
 
 Light & Dark Themes: Choose a theme that suits your style.
 
-Voice Input: Add transactions using your voice, powered by cordova-plugin-speechrecognition.
+Voice Input: Add transactions using your voice (powered by cordova-plugin-speechrecognition).
 
 Advanced Filtering & Sorting: Find transactions by type, description, or amount — and sort by date or value.
 
@@ -36,10 +36,12 @@ Framework	Apache Cordova
 Frontend	React (via UMD), HTML5, CSS3
 Storage	IndexedDB
 Report Generation	html2canvas
+
+
 📂 Folder Structure
 SpendWiseApp/
-├── config.xml             # Cordova project configuration
-├── resources/             # App icons and splash screens
+├── config.xml                 # Cordova project configuration
+├── resources/                 # App icons and splash screens
 │   └── android/
 │       ├── icon/
 │       │   ├── drawable-hdpi-icon.png
@@ -48,16 +50,16 @@ SpendWiseApp/
 │       └── splash/
 │           ├── drawable-port-hdpi-screen.png
 │           └── ... (other densities)
-└── www/                   # Main web content
-    └── index.html         # SPA entry point
+└── www/                       # Main web content
+    └── index.html             # SPA entry point
+
 
 🚀 How to Build the APK (for Android)
-Prerequisites
+🧩 Prerequisites
 
-Make sure the following are installed:
+Make sure you have the following installed:
 
-Node.js
- and npm
+Node.js and npm
 
 Java Development Kit (JDK)
 
@@ -66,51 +68,31 @@ Android Studio
 
 Apache Cordova CLI
 
-Install Cordova globally:
+🧱 Install Cordova Globally
 
-npm install -g cordova
+ npm install -g cordova
 
-Build Steps
-
-Clone the Repository
-
-git clone <your-repository-url>
+⚙️ Build Steps
+1. Clone the Repository
+git clone https://github.com/tronextech-1/Spend-Wise.git
 cd SpendWiseApp
 
-
-Add the Android Platform
-
+2. Add the Android Platform
 cordova platform add android
 
-
-Check Requirements (optional but recommended)
-
+3. (Optional) Check Requirements
 cordova requirements android
 
-
-Build the Debug APK
-
+4. Build the Debug APK
 cordova build android
 
 
-The unsigned debug APK will be located at:
+📍 Debug APK Location:
 
 platforms/android/app/build/outputs/apk/debug/app-debug.apk
 
 
-Build a Signed Release APK (for production)
-
-cordova build android --release \
-  -- --keystore="<path-to-your-keystore>" \
-  --storePassword="<your-store-password>" \
-  --alias="<your-alias>" \
-  --password="<your-alias-password>"
-
-
-For detailed signing steps, see Cordova’s official documentation
-.
-
-🔌 Cordova Plugins Used
+🔌 Cordova Plugins Used.
 Plugin	Purpose
 cordova-plugin-statusbar	Controls the device status bar
 cordova-plugin-splashscreen	Displays and hides the splash screen
@@ -119,6 +101,7 @@ cordova-plugin-speechrecognition	Enables voice-to-text input
 cordova-plugin-file	Handles file access for sharing reports
 cordova-plugin-x-socialsharing	Enables sharing of image reports
 cordova-plugin-device	Provides basic device information
+
 🧭 Roadmap (Planned Features)
 
  Export reports as PDF
@@ -133,7 +116,7 @@ cordova-plugin-device	Provides basic device information
 
 Ubaid Ur Rehman
 🔹 Developer at TRONEX
-🔹 GitHub
+🔹 GitHub Profile
 
 📜 License
 
