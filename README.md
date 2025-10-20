@@ -19,11 +19,11 @@ Java Development Kit (JDK)
 Android Studio
  (for SDK tools)
 
-Apache Cordova CLI
+ Apache Cordova CLI
 
 🧱 Install Cordova Globally
 
- npm install -g cordova
+: npm install -g cordova
 
 ⚙️ Build Steps
 1. Clone the Repository
@@ -32,13 +32,13 @@ Apache Cordova CLI
   
 
 2. Add the Android Platform
-cordova platform add android
+: cordova platform add android
 
 3. (Optional) Check Requirements
-cordova requirements android
+: cordova requirements android
 
 4. Build the Debug APK
-cordova build android
+: cordova build android
 
 
 📍 Debug APK Location:
